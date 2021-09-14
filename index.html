@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,900;1,100;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Glory&family=Roboto:ital,wght@1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>Rai Full-stack</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="https://camo.githubusercontent.com/dda802ce111ba43ad739800b92421515596e3d5ddd4d26597f2dd016b5ba6238/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3837373330313737323539373733313335392f3837373637323533303230313137383138322f436f6d706c65746f2e676966"
+                alt="Rainara Nogueira">
+        </div>
+        <ul>
+            <!-- li*3 coloca 3 li de uma vez -->
+            <li>
+                <h4>Entre em contato por:</h4>
+            </li>
+            <li>
+                <a target="_blank" href="https://www.instagram.com/rainara_nm/"><strong>Instagram</strong></a>
+            </li>
+            <li>
+                <a target="_blank" href="mailto:rainara.n.moura@gmail.com"><strong>E-mail</strong></a>
+            </li>
+            <li>
+                <a target="_blank" href="https://wa.me/5511969800393"><strong>WhatsApp</strong></a>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <section class="container">
+            <div class="name">
+                <h1>Rainara Nogueira</h1>
+                <h5>Full-stack Developer</h5><br>
+            </div>
+
+            <div onclick="displayFlex()" id="arrow">
+                <i id="animation" class="fas fa-sort-down"></i>
+                <!-- site font awesome, copia HTML, depois copia código na parte de fonte awesome CDN para colar lá em cima-->
+            </div>
+
+            <div>
+                <div id="flex" style="display: none;">
+                    
+                    <div>
+                        <img src="https://avatars.githubusercontent.com/u/88236605?v=4" alt="">
+                        
+                            <p>
+                                <br>19 anos, Ela/Dela <br><br>
+                                Estudante de ciência da computação - Faculdade Descomplica <br><br>
+                                Ainda tenho muito a aprender, mas - covenhamos - quem não neste mundo bombardeado de
+                                conhecimento?!
+                                Mas, ainda assim,
+                                prometo usar toda a minha dedicação para botar no ar o seu site dos sonhos!
+                            </p>
+                        
+
+                    </div>
+                    <div>
+                        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="">
+                        <p>
+                            Você pode dar uma olhadinha no meu portfólio através do link abaixo: <br><br>
+                            
+                            GitHub: <a target="_blank" href="https://github.com/rainaranm">rainaranm</a>
+                        </p>
+                    </div>
+
+                    <div>
+                        <img src="https://media-exp1.licdn.com/dms/image/C4D03AQG6O-ZCjoh7rQ/profile-displayphoto-shrink_200_200/0/1627845681881?e=1637193600&v=beta&t=ukWBnrLjDXJY3nd4TPN8RDmamh0EKxYhGysX5wzx1XY" alt="">
+                        <p>
+                            Fique à vontade para conectar, entrar em contato e dar uma conferida no meu LinkedIn: <br><br>
+                            
+                            LinkedIn: <a target="_blank" href="https://www.linkedin.com/in/rainaranm/">rainaranm</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div id='about' style="display: block;">
+                    <br><p id="introducao">Olá! Boas-vindas ao meu site de apresentação do meu trabalho! Você pode clicar na setinha piscante acima para saber mais detalhes sobre mim :)</p>
+                </div>
+        </section>
+    </main>
+
+    <script>
+        function displayFlex() {
+            var arrow = document.getElementById('animation');
+            arrow.classList.toggle('rotate');
+            var display = document.getElementById('flex');
+            display.classList.toggle('active');
+            var about = document.getElementById('introducao');
+            about.classList.toggle('inactive');
+        }
+    </script>
+
+</body>
+
+</html>
