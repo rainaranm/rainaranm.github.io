@@ -6,12 +6,10 @@
     box-sizing: border-box; /*separa os elementos em suas caixas*/
 }
 
-
 body {
-    min-height: 100%; /* força o programa a reconhecer toda a tela*/
-    /*height: 130vh; força o programa a reconhecer toda a tela*/
+    height: 130vh; /*força o programa a reconhecer toda a tela*/
+    width: 130vw;
     background: linear-gradient( #845EC2, #FF9671);
-    
 
 }    
 
