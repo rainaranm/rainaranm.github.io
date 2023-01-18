@@ -7,7 +7,7 @@
 }
 
 body {
-    height: 130vh; /*força o programa a reconhecer toda a tela*/
+    height: 200vh; /*força o programa a reconhecer toda a tela*/
     background: linear-gradient( #845EC2, #FF9671);
 
 }    
