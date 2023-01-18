@@ -1,9 +1,10 @@
-     * { 
-        font-family: 'Glory', sans-serif;
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box; /*separa os elementos em suas caixas*/
-    }
+
+* { 
+    font-family: 'Glory', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /*separa os elementos em suas caixas*/
+}
 
 body {
     height: 130vh; /*força o programa a reconhecer toda a tela*/
@@ -25,9 +26,16 @@ img {
     border-radius: 100%;
 }
 
+header img {
+    width: 100px;
+    height: auto;
+    border-radius: 100%;
+}
+
 header ul {
     display: flex;
-    border: 2px  dashed #fff; 
+    border: 2px  dashed rgb(210, 191, 216);
+    
     
 }
 
@@ -40,7 +48,7 @@ a {
 }
 
 a:hover {
-    color:rgb(0, 0, 0);
+    color:rgb(135, 26, 150);
     text-decoration: underline;
 }
 
@@ -51,11 +59,11 @@ a:hover {
 
 #flex div {
     
-    border: 1px solid #000;
+    /*border: 1px solid #000;*/
     margin: 15px;
     flex-basis: 100%;
     border-radius: 20px;
-    background-color: #fff;
+    background-color: rgb(236, 173, 231);
     padding: 30px;
     max-width: 280px;  
 }
@@ -66,20 +74,24 @@ a:hover {
 }
 
 
-
 #about p {
     font-size: 20px;
     margin: 0px 400px 0px 400px;  
 }
 
-ul {
-    list-style: none;
-    font-style: italic; 
-}
-
 a {
     text-decoration: none;
-    color: rgb(73, 6, 94);
+    color: rgb(192, 75, 196);
+}
+
+li a{
+    color: rgb(206, 145, 229)
+}
+
+ul {
+    list-style: none;
+    font-style: italic;
+    color: rgb(206, 121, 231) 
 }
 
 .container {
@@ -88,10 +100,13 @@ a {
 
 .container .name h1 {
     font-size: 50px;
+    color: rgb(210, 191, 216)
 }
 
 .container .name h5 {
     font-size: 20px;
+    color: rgb(210, 191, 216)
+
 }
 
 #arrow {
@@ -163,3 +178,4 @@ a {
         font-size: 13px;
     }
 }
+
