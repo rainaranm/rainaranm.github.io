@@ -5,13 +5,10 @@
     margin: 0;
     box-sizing: border-box; /*separa os elementos em suas caixas*/
 }
-html {
-    min-height: 100%; /* força o programa a reconhecer toda a tela*/
 
-    display: flex;
-}
 
 body {
+    min-height: 100%; /* força o programa a reconhecer toda a tela*/
     /*height: 130vh; força o programa a reconhecer toda a tela*/
     background: linear-gradient( #845EC2, #FF9671);
     
