@@ -153,10 +153,17 @@ ul {
     }
 }
 
+
+
 /* Boa prática para representar outros tamanhos de telas */
 @media only screen and (max-width: 1030px) {
     .container .name h1 {
         font-size: 34px;
+    }
+
+    #flex{
+        flex-direction:column;
+        align-items: center;
     }
     
     .container .name h5 {
@@ -164,7 +171,7 @@ ul {
     }
     
     .flex div p {
-        max-width: 80%;  
+        max-width: 90%;  
     }
 
     #about p {
