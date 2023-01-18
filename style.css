@@ -14,7 +14,7 @@ html {
 body {
     /*height: 130vh; força o programa a reconhecer toda a tela*/
     background: linear-gradient( #845EC2, #FF9671);
-    flex-grow: 1;
+    
 
 }    
 
