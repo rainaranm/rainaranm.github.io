@@ -8,7 +8,7 @@
 
 body {
     height: 130vh; /*força o programa a reconhecer toda a tela*/
-    width: 130vw;
+
     background: linear-gradient( #845EC2, #FF9671);
 
 }    
@@ -158,6 +158,11 @@ ul {
 
 /* Boa prática para representar outros tamanhos de telas */
 @media only screen and (max-width: 1030px) {
+
+    body {
+        height: 200vh;
+    } 
+
     .container .name h1 {
         font-size: 34px;
     }
@@ -182,8 +187,14 @@ ul {
 }
 
     @media only screen and (max-width: 460px) {
+
+    body {
+        height: 150vh;
+    } 
+
     header ul {
         font-size: 13px;
     }
+    
 }
 
