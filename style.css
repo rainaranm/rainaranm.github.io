@@ -6,12 +6,15 @@
     box-sizing: border-box; /*separa os elementos em suas caixas*/
 }
 
+
 body {
-    height: 130vh; /*força o programa a reconhecer toda a tela*/
-
-    background: linear-gradient( #845EC2, #FF9671);
-
+    background: linear-gradient( #845EC2, #FF9671) no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
 }    
+
+
 
 header {
     display: flex;
@@ -182,6 +185,8 @@ ul {
         margin: 0px 20px 0px 20px;  
     }
 }
+
+
 
     @media only screen and (max-width: 480px) {
 
